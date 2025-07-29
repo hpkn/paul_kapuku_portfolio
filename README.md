@@ -68,7 +68,7 @@ I’m a backend engineer with 5 years of experience building real-time data pipe
 - Deployment with github action
 - End to End test.
 
-- 📝 [Consumer Repo](https://recommender.example.com) •
+- 📝 [Consumer Repo](https://github.com/hpkn/BE-SKIN-Analysis-sample-v2) •
 - 📖 [Producer Repo](https://github.com/you/content-analysis)
 
 ---
