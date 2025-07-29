@@ -1,11 +1,15 @@
 # Paul Kapuku Software Portfolio
 # 👋 Hi, I’m Paul N. KAPUKU
 
-> 💻 Backend Engineer | Python • Javascript • Kafka • Spark • FastAPI • NodeJS/Nestjs • Nginx • Docker • SQL • NoSql • AWS • LLM • AI Enginering
-  
+> 💻 Backend Engineer | Python • Javascript • Kafka • Spark • FastAPI • NodeJS/Nestjs • Nginx • Docker • SQL • NoSql • AWS • LLM • AI Enginering • ML and AI fundamentals
+
+---
+
+##
+
 > 🔭 Currently building a marketing-recommendation engine with LLM-driven insights  
 > 🌱 Always learning about data-driven architectures & distributed systems  
-> 📫 Reach me at jane.doe@example.com   |  [LinkedIn](https://linkedin.com/in/janedoe)
+> 📫 Reach me at hassangpaul@gmail.com   |  [LinkedIn](https://linkedin.com/in/hassangpaul)
 
 ---
 
@@ -66,7 +70,7 @@ I’m a backend engineer with 5 years of experience building real-time data pipe
 
 ## 📊 GitHub Stats
 
-[![GitHub stats](https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true)](https://github.com/your-username)
+[![GitHub stats](https://github-readme-stats.vercel.app/api?username=hpnk&show_icons=true)](https://github.com/hpnk)
 
 ---
 
