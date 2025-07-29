@@ -36,12 +36,13 @@ I’m a backend engineer with 5 years of experience building real-time data pipe
 
 ### Marketing Recommender  
 ![marketing-recommender demo](./assets/recommender.gif)  
-**Stack:** Python • Kafka • Spark • Ollama LLM • FastAPI • PostgreSQL • Docker  
+**Stack:** Python • Playwright • BeautifulSoup • Kafka • Spark • Celery • Redis • Ollama LLM • FastAPI • PostgreSQL • Docker • GPU Server • Ubuntu
 **Highlights:**  
-- Ingests clickstream via Kafka, aggregates hourly/daily metrics with Spark  
+- Ingests clickstream via Kafka, aggregates hourly/daily metrics with Spark 
+- Web crawling specific data in background tasks with spark and Playwright & BeautifulSoup. 
 - Runs sentiment & keyword extraction through an on-prem LLM (Ollama)  
 - Exposes a FastAPI dashboard that shows real-time KPIs, trends, and alerts  
-- 📝 [Live Demo](https://recommender.example.com) • 📖 [Repo](https://github.com/you/marketing-recommender)
+- 📝 [Live Demo](https://recommender.example.com) • 📖 [Repo](https://github.com/rstful/data-tips)
 
 ### Event-Driven Pipeline  
 **Stack:** Node.js • NestJS • RabbitMQ • PostgreSQL • AWS Lambda  
