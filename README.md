@@ -70,7 +70,7 @@ I’m a backend engineer with 5 years of experience building real-time data pipe
 
 ## 📊 GitHub Stats
 
-[![GitHub stats](https://github-readme-stats.vercel.app/api?username=hpnk&show_icons=true)](https://github.com/hpnk)
+[![GitHub stats](https://github-readme-stats.vercel.app/api?username=hpkn&show_icons=true)](https://github.com/hpkn)
 
 ---
 
