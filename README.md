@@ -61,10 +61,13 @@ I’m a backend engineer with 5 years of experience building real-time data pipe
 
 ## 🛠 Tech Stack
 
-| Language     | Frameworks       | Data & Messaging       | DevOps & Cloud    |
-|--------------|------------------|------------------------|-------------------|
-| Python, Java | FastAPI, Spring  | Kafka, Spark, PostgreSQL | Docker, Kubernetes, AWS |
-| Node.js      | NestJS, Express  | Redis, RabbitMQ        | GitHub Actions, Terraform |
+| Language           | Frameworks       | Data & Messaging         | DevOps & Cloud             | AI/LLM/ML    
+|--------------------|------------------|--------------------------|----------------------------|--------------------------------------------------
+| Python             | FastAPI, Flask   | Kafka, Spark, PostgreSQL | Docker, AWS, Tencent Cloud |Deep learning and ML concepts, Transformers, fine-tuning, RAG pipelines, LangChain, HuggingFace
+| Node.js, Typescript| NestJS, Express  | Redis, RabbitMQ          | GitHub Actions             |
+| Rails              | Ruby on Rails    | Celey                    |                            |
+
+
 
 ---
 
@@ -77,8 +80,7 @@ I’m a backend engineer with 5 years of experience building real-time data pipe
 ## 📫 Contact
 
 - 📧 jane.doe@example.com  
-- 💼 [LinkedIn](https://linkedin.com/in/janedoe)  
-- 🐦 [Twitter](https://twitter.com/janedoe)  
+- 💼 [LinkedIn](https://www.linkedin.com/in/hassangpaul/)  
 
 ---
 
