@@ -79,7 +79,7 @@ I’m a backend engineer with 5 years of experience building real-time data pipe
 
 ## 📫 Contact
 
-- 📧 jane.doe@example.com  
+- 📧 hassangpaul@gmail.com  
 - 💼 [LinkedIn](https://www.linkedin.com/in/hassangpaul/)  
 
 ---
