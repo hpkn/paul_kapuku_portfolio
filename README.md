@@ -39,24 +39,37 @@ I’m a backend engineer with 5 years of experience building real-time data pipe
 **Stack:** Python • Playwright • BeautifulSoup • Kafka • Spark • Celery • Redis • Ollama LLM • FastAPI • PostgreSQL • Docker • GPU Server • Ubuntu
 **Highlights:**  
 - Ingests clickstream via Kafka, aggregates hourly/daily metrics with Spark 
-- Web crawling specific data in background tasks with spark and Playwright & BeautifulSoup. 
 - Runs sentiment & keyword extraction through an on-prem LLM (Ollama)  
 - Exposes a FastAPI dashboard that shows real-time KPIs, trends, and alerts  
-- 📝 [Live Demo](https://recommender.example.com) • 📖 [Repo](https://github.com/rstful/data-tips)
 
-### Event-Driven Pipeline  
-**Stack:** Node.js • NestJS • RabbitMQ • PostgreSQL • AWS Lambda  
+#### Event-Driven Pipeline  
+**Highlights:**  
 - Designed a microservices architecture for processing millions of user events/day  
 - Implemented Celery-like worker queues, back-pressure handling, and idempotency  
-- Achieved 99.99% uptime across EU & US regions  
-- 📖 [Repo](https://github.com/you/event-pipeline)
+- Achieved 99.99% uptime.  
 
-### Content Analysis Service  
-**Stack:** Python • BeautifulSoup • FastAPI • Redis • Docker  
+#### Content Analysis Service   
 - Crawls web & social media, stores raw data in Postgres, cleans & tags with LLM  
 - Aggregates brand-mention stats: sentiment, top keywords, source distribution  
-- Provides a JSON API & web hook for downstream analytics platforms  
-- 📖 [Repo](https://github.com/you/content-analysis)
+- Provides a JSON API & web hook for downstream analytics platforms 
+
+- 📝 [Live Demo](https://recommender.example.com) • 📖 [Repo](https://github.com/rstful/data-tips)
+
+
+### Skin Analysis Service  
+**Stack:** Node.js • NestJS • Python • RabbitMQ • Celery • Redis • PostgreSQL • AWS EC2 • AWS Route 53 • Nginx
+
+**Highlights:**
+- Microservices Architecture: Architected and deployed decoupled services for image ingestion, analysis, and results delivery—enabling horizontal scaling and fault isolation. (Nodejs, Nestjs)
+- High-Performance Worker Pipeline: Built a Python-based Celery worker (producer) that performs advanced image preprocessing and ML inference, orchestrated via RabbitMQ and Redis for reliable task queuing and retry semantics.
+- Resilience & Idempotency: Engineered end-to-end message retry and deduplication logic to guarantee exactly-once processing, even under spikes and failures.
+- Global High Availability: Deployed across EU and US AWS regions with automated DNS failover (Route 53) and Nginx load balancing, achieving 99.99% service uptime.
+- Data Integrity & Monitoring: Leveraged PostgreSQL for transactional storage of user analyses, supplemented with Prometheus/Grafana dashboards and alerting for real-time performance and error tracking.
+- Deployment with github action
+- End to End test.
+
+- 📝 [Consumer Repo](https://recommender.example.com) •
+- 📖 [Producer Repo](https://github.com/you/content-analysis)
 
 ---
 
