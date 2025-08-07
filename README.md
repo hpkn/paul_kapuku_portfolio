@@ -1,7 +1,19 @@
-# Paul Kapuku Software Portfolio
-# 👋 Hi, I’m Paul N. KAPUKU
+# Paul Kapuku Software Portfolio / 소프트웨어 포트폴리오
 
-> 💻 Backend Engineer | Python • Javascript • Kafka • Spark • FastAPI • NodeJS/Nestjs • Nginx • Docker • SQL • NoSql • AWS • LLM • AI Enginering • ML and AI fundamentals
+<div align="center">
+
+[🇬🇧 English](#english) | [🇰🇷 한국어](#korean)
+
+</div>
+
+---
+
+<a name="english"></a>
+# 🇬🇧 English Version
+
+# 👋 Hi, I'm Paul N. KAPUKU
+
+> 💻 Backend Engineer | Python • Javascript • Kafka • Spark • FastAPI • NodeJS/Nestjs • Nginx • Docker • SQL • NoSql • AWS • LLM • AI Engineering • ML and AI fundamentals
 
 ---
 
@@ -20,6 +32,8 @@
   - [Marketing Recommender](#marketing-recommender)  
   - [Event-Driven Pipeline](#event-driven-pipeline)  
   - [Content Analysis Service](#content-analysis-service)  
+  - [Skin Analysis Service](#skin-analysis-service)
+  - [Customer CRM Backend API](#customer-crm-backend-api)
 - [Tech Stack](#tech-stack)  
 - [GitHub Stats](#github-stats)  
 - [Contact](#contact)
@@ -28,7 +42,7 @@
 
 ## 📝 About Me
 
-I’m a backend engineer with 5 years of experience building real-time data pipelines, microservices, and AI-powered APIs. I’ve led projects at midsize startups and enjoy mentoring juniors on best practices in observability, testing, and cloud architecture.
+I'm a backend engineer with 5 years of experience building real-time data pipelines, microservices, and AI-powered APIs. I've led projects at midsize startups and enjoy mentoring juniors on best practices in observability, testing, and cloud architecture.
 
 ---
 
@@ -37,6 +51,7 @@ I’m a backend engineer with 5 years of experience building real-time data pipe
 ### Marketing Recommender  
 ![marketing-recommender demo](./assets/recommender.gif)  
 **Stack:** Python • Playwright • BeautifulSoup • Kafka • Spark • Celery • Redis • Ollama LLM • FastAPI • PostgreSQL • Docker • GPU Server • Ubuntu
+
 **Highlights:**  
 - Ingests clickstream via Kafka, aggregates hourly/daily metrics with Spark 
 - Runs sentiment & keyword extraction through an on-prem LLM (Ollama)  
@@ -68,8 +83,59 @@ I’m a backend engineer with 5 years of experience building real-time data pipe
 - Deployment with github action
 - End to End test.
 
-- 📝 [Consumer Repo](https://github.com/hpkn/BE-SKIN-Analysis-sample-v2) •
+- 📝 [Consumer Repo](https://github.com/hpkn/BE-SKIN-Analysis-sample-v2)
 - 📖 [Producer Repo](https://github.com/you/content-analysis)
+
+
+### Customer CRM Backend API 
+🚀 **Features**
+- Core Functionality
+  - Consultant Management - Complete CRUD operations with business rules
+  - Customer Management - Customer profiles, preferences, and history
+  - Authentication & Authorization - JWT-based auth with role-based access
+  - Multi-Database Support - Primary, secondary, and analysis databases
+  - File Storage - AWS S3 integration for document/image storage
+  - Email Services - Templated email notifications
+  - Internationalization - Multi-language support
+  - API Documentation - Swagger/OpenAPI integration
+- Architecture Features
+  - Domain-Driven Design - Rich domain models with business logic
+  - Repository Pattern - Abstracted data access layer
+  - Use Case Pattern - Clear application business rules
+  - Value Objects - Type-safe data validation (Email, Phone, etc.)
+  - Unit of Work - Transaction management
+  - Result Pattern - Explicit error handling without exceptions
+  - Event Sourcing Ready - Domain events for audit trails
+
+🛠️ **Technology Stack**
+- Core Technologies
+  - Runtime: Node.js 18+
+  - Framework: NestJS 9+
+  - Language: TypeScript 4.7+
+  - Database: PostgreSQL 14+
+  - ORM: TypeORM 0.3+
+- Infrastructure
+  - Authentication: JWT with RS256/HS256
+  - File Storage: AWS S3
+  - Email: NodeMailer with Handlebars templates
+  - Logging: Winston with structured logging
+  - Validation: class-validator with DTOs
+  - Documentation: Swagger/OpenAPI 3.0
+  - Testing: Jest with Supertest
+- Development Tools
+  - Code Quality: ESLint, Prettier
+  - API Testing: Thunder Client, Postman
+  - Database: pgAdmin, DBeaver
+  - Containerization: Docker & Docker Compose
+
+📋 **Prerequisites**
+- Node.js 18+ and npm 8+
+- PostgreSQL 14+
+- Redis 6+ (for caching)
+- Docker (optional, for containerization)
+- AWS Account (for S3 storage in production)
+
+[Repo](https://github.com/hpkn/Login_user_management)
 
 ---
 
@@ -79,9 +145,7 @@ I’m a backend engineer with 5 years of experience building real-time data pipe
 |--------------------|------------------|--------------------------|----------------------------|--------------------------------------------------
 | Python             | FastAPI, Flask   | Kafka, Spark, PostgreSQL | Docker, AWS, Tencent Cloud |Deep learning and ML concepts, Transformers, fine-tuning, RAG pipelines, LangChain, HuggingFace
 | Node.js, Typescript| NestJS, Express  | Redis, RabbitMQ          | GitHub Actions             |
-| Rails              | Ruby on Rails    | Celey                    |                            |
-
-
+| Rails              | Ruby on Rails    | Celery                   |                            |
 
 ---
 
@@ -98,4 +162,163 @@ I’m a backend engineer with 5 years of experience building real-time data pipe
 
 ---
 
-> “Simplicity is the ultimate sophistication.” – Leonardo da Vinci
+> "Simplicity is the ultimate sophistication." – Leonardo da Vinci
+
+---
+---
+
+<a name="korean"></a>
+# 🇰🇷 한국어 버전
+
+# 👋 안녕하세요, Paul N. KAPUKU입니다
+
+> 💻 백엔드 엔지니어 | Python • Javascript • Kafka • Spark • FastAPI • NodeJS/Nestjs • Nginx • Docker • SQL • NoSql • AWS • LLM • AI 엔지니어링 • ML 및 AI 기초
+
+---
+
+##
+
+> 🔭 현재 LLM 기반 인사이트를 활용한 마케팅 추천 엔진을 개발 중입니다  
+> 🌱 데이터 중심 아키텍처와 분산 시스템에 대해 꾸준히 학습하고 있습니다  
+> 📫 연락처: hassangpaul@gmail.com   |  [LinkedIn](https://linkedin.com/in/hassangpaul)
+
+---
+
+## 📋 목차
+
+- [자기소개](#자기소개)  
+- [주요 프로젝트](#주요-프로젝트)  
+  - [마케팅 추천 시스템](#마케팅-추천-시스템)  
+  - [이벤트 기반 파이프라인](#이벤트-기반-파이프라인)  
+  - [콘텐츠 분석 서비스](#콘텐츠-분석-서비스)  
+  - [피부 분석 서비스](#피부-분석-서비스)
+  - [고객 CRM 백엔드 API](#고객-crm-백엔드-api)
+- [기술 스택](#기술-스택)  
+- [GitHub 통계](#github-통계)  
+- [연락처](#연락처-정보)
+
+---
+
+## 📝 자기소개
+
+저는 5년간의 경험을 보유한 백엔드 엔지니어로, 실시간 데이터 파이프라인, 마이크로서비스, AI 기반 API를 구축해왔습니다. 중견 스타트업에서 프로젝트를 이끌었으며, 관찰 가능성, 테스팅, 클라우드 아키텍처 모범 사례에 대해 주니어 개발자들을 멘토링하는 것을 즐깁니다.
+
+---
+
+## 🚀 주요 프로젝트
+
+### 마케팅 추천 시스템  
+![marketing-recommender demo](./assets/recommender.gif)  
+**기술 스택:** Python • Playwright • BeautifulSoup • Kafka • Spark • Celery • Redis • Ollama LLM • FastAPI • PostgreSQL • Docker • GPU Server • Ubuntu
+
+**주요 특징:**  
+- Kafka를 통한 클릭스트림 수집, Spark로 시간별/일별 메트릭 집계
+- 온프레미스 LLM(Ollama)을 통한 감정 분석 및 키워드 추출 실행
+- 실시간 KPI, 트렌드, 알림을 보여주는 FastAPI 대시보드 제공
+
+#### 이벤트 기반 파이프라인  
+**주요 특징:**  
+- 일일 수백만 건의 사용자 이벤트를 처리하는 마이크로서비스 아키텍처 설계
+- Celery 유사 워커 큐, 백프레셔 처리 및 멱등성 구현
+- 99.99% 가동 시간 달성
+
+#### 콘텐츠 분석 서비스   
+- 웹 및 소셜 미디어 크롤링, Postgres에 원시 데이터 저장, LLM으로 정제 및 태깅
+- 브랜드 언급 통계 집계: 감정, 주요 키워드, 소스 분포
+- 다운스트림 분석 플랫폼을 위한 JSON API 및 웹훅 제공
+
+- 📝 [라이브 데모](https://recommender.example.com) • 📖 [저장소](https://github.com/rstful/data-tips)
+
+
+### 피부 분석 서비스  
+**기술 스택:** Node.js • NestJS • Python • RabbitMQ • Celery • Redis • PostgreSQL • AWS EC2 • AWS Route 53 • Nginx
+
+**주요 특징:**
+- 마이크로서비스 아키텍처: 이미지 수집, 분석, 결과 전달을 위한 분리된 서비스를 설계 및 배포하여 수평적 확장과 장애 격리 가능 (Nodejs, Nestjs)
+- 고성능 워커 파이프라인: 고급 이미지 전처리 및 ML 추론을 수행하는 Python 기반 Celery 워커(생산자) 구축, RabbitMQ와 Redis를 통한 신뢰성 있는 작업 큐잉 및 재시도 처리
+- 복원력 및 멱등성: 스파이크 및 장애 상황에서도 정확히 한 번 처리를 보장하는 엔드투엔드 메시지 재시도 및 중복 제거 로직 구현
+- 글로벌 고가용성: EU 및 미국 AWS 리전에 배포, 자동 DNS 페일오버(Route 53) 및 Nginx 로드 밸런싱으로 99.99% 서비스 가동 시간 달성
+- 데이터 무결성 및 모니터링: 사용자 분석의 트랜잭션 저장을 위한 PostgreSQL 활용, Prometheus/Grafana 대시보드 및 실시간 성능 및 오류 추적을 위한 알림 시스템 구축
+- GitHub Actions를 통한 배포
+- 엔드투엔드 테스트
+
+- 📝 [Consumer 저장소](https://github.com/hpkn/BE-SKIN-Analysis-sample-v2)
+- 📖 [Producer 저장소](https://github.com/you/content-analysis)
+
+
+### 고객 CRM 백엔드 API 
+🚀 **기능**
+- 핵심 기능
+  - 컨설턴트 관리 - 비즈니스 규칙이 포함된 완벽한 CRUD 작업
+  - 고객 관리 - 고객 프로필, 선호도 및 이력
+  - 인증 및 권한 부여 - 역할 기반 접근 제어를 포함한 JWT 기반 인증
+  - 다중 데이터베이스 지원 - 기본, 보조 및 분석 데이터베이스
+  - 파일 저장소 - 문서/이미지 저장을 위한 AWS S3 통합
+  - 이메일 서비스 - 템플릿 기반 이메일 알림
+  - 국제화 - 다국어 지원
+  - API 문서화 - Swagger/OpenAPI 통합
+- 아키텍처 기능
+  - 도메인 주도 설계 - 비즈니스 로직이 포함된 풍부한 도메인 모델
+  - 리포지토리 패턴 - 추상화된 데이터 접근 계층
+  - 유스케이스 패턴 - 명확한 애플리케이션 비즈니스 규칙
+  - 값 객체 - 타입 안전 데이터 검증 (이메일, 전화번호 등)
+  - 작업 단위 - 트랜잭션 관리
+  - 결과 패턴 - 예외 없는 명시적 오류 처리
+  - 이벤트 소싱 준비 - 감사 추적을 위한 도메인 이벤트
+
+🛠️ **기술 스택**
+- 핵심 기술
+  - 런타임: Node.js 18+
+  - 프레임워크: NestJS 9+
+  - 언어: TypeScript 4.7+
+  - 데이터베이스: PostgreSQL 14+
+  - ORM: TypeORM 0.3+
+- 인프라
+  - 인증: RS256/HS256을 사용한 JWT
+  - 파일 저장소: AWS S3
+  - 이메일: Handlebars 템플릿을 사용한 NodeMailer
+  - 로깅: 구조화된 로깅을 위한 Winston
+  - 검증: DTO를 사용한 class-validator
+  - 문서화: Swagger/OpenAPI 3.0
+  - 테스팅: Supertest를 사용한 Jest
+- 개발 도구
+  - 코드 품질: ESLint, Prettier
+  - API 테스팅: Thunder Client, Postman
+  - 데이터베이스: pgAdmin, DBeaver
+  - 컨테이너화: Docker & Docker Compose
+
+📋 **필수 요구사항**
+- Node.js 18+ 및 npm 8+
+- PostgreSQL 14+
+- Redis 6+ (캐싱용)
+- Docker (선택사항, 컨테이너화용)
+- AWS 계정 (프로덕션 S3 저장소용)
+
+[저장소](https://github.com/hpkn/Login_user_management)
+
+---
+
+## 🛠 기술 스택
+
+| 언어               | 프레임워크       | 데이터 및 메시징         | DevOps 및 클라우드         | AI/LLM/ML    
+|--------------------|------------------|--------------------------|----------------------------|--------------------------------------------------
+| Python             | FastAPI, Flask   | Kafka, Spark, PostgreSQL | Docker, AWS, Tencent Cloud |딥러닝 및 ML 개념, Transformers, 파인튜닝, RAG 파이프라인, LangChain, HuggingFace
+| Node.js, Typescript| NestJS, Express  | Redis, RabbitMQ          | GitHub Actions             |
+| Rails              | Ruby on Rails    | Celery                   |                            |
+
+---
+
+## 📊 GitHub 통계
+
+[![GitHub stats](https://github-readme-stats.vercel.app/api?username=hpkn&show_icons=true)](https://github.com/hpkn)
+
+---
+
+## 📫 연락처 정보
+
+- 📧 hassangpaul@gmail.com  
+- 💼 [LinkedIn](https://www.linkedin.com/in/hassangpaul/)  
+
+---
+
+> "단순함은 궁극의 정교함이다." – 레오나르도 다 빈치
