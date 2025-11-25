@@ -13,7 +13,7 @@
 
 # 👋 Hi, I'm Paul N. KAPUKU
 
-> 💻 Backend Engineer | Python • Javascript • Kafka • Spark • FastAPI • NodeJS/Nestjs • Nginx • Docker • SQL • NoSql • AWS • LLM • AI Engineering • ML and AI fundamentals
+> 💻 Backend Engineer | Python • Javascript • Typescript • Kafka • Spark • FastAPI • NodeJS/Nestjs • Nginx • Docker • SQL • NoSql • AWS • LLM • AI Engineering • ML and AI fundamentals
 
 ---
 
