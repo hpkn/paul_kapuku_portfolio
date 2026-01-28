@@ -137,6 +137,163 @@ I'm a backend engineer with 5 years of experience building real-time data pipeli
 
 [Repo](https://github.com/hpkn/Login_user_management)
 
+### Additional Featured Projects
+
+#### Career Document Matching Demo
+**Stack:** Python • Streamlit • LLM • NLP • RAG
+
+**Description:** 
+An intelligent document matching system that uses LLM and NLP techniques to analyze and match career documents with job opportunities. The system leverages Retrieval Augmented Generation (RAG) for semantic understanding of career documents, achieving accurate skill-to-job mapping.
+
+**Key Features:**
+- Streamlit-based web interface for real-time document analysis
+- - RAG pipeline for context-aware document processing
+  - - Semantic similarity matching between career profiles and job descriptions
+    - - Support for multiple document formats (PDF, DOCX)
+      - - Deployed as system service on cloud infrastructure
+        - - Live demo: https://ai-test.rs-team.com
+         
+          - 📖 [Repository](https://github.com/hpkn/career-document-matching-demo)
+         
+          - ---
+
+          #### Login User Management System
+          **Stack:** TypeScript • NestJS • PostgreSQL • JWT • TypeORM
+
+          **Description:**
+          A comprehensive user authentication and management system built with NestJS and TypeScript. The system provides role-based access control, JWT-based authentication, and secure user lifecycle management.
+
+          **Key Features:**
+          - JWT-based authentication with RS256/HS256 support
+          - - Role-based access control (RBAC)
+            - - User profile management and preferences
+              - - Secure password hashing and validation
+                - - Database transaction management with TypeORM
+                  - - Comprehensive error handling
+                    - - API documentation with Swagger
+                     
+                      - 📖 [Repository](https://github.com/hpkn/Login_user_management)
+                     
+                      - ---
+
+                      #### BE-SKIN Analysis Sample v2
+                      **Stack:** TypeScript • NestJS • Python • ML/AI • Image Processing
+
+                      **Description:**
+                      An advanced skin analysis service demonstrating machine learning integration with backend services. The project showcases best practices in building scalable microservices with async task processing.
+
+                      **Key Features:**
+                      - Image preprocessing and ML model inference
+                      - - Celery-based async task processing
+                        - - Results caching with Redis
+                          - - Database transaction management
+                            - - Error handling and data validation
+                             
+                              - 📖 [Repository](https://github.com/hpkn/BE-SKIN-Analysis-sample-v2)
+                             
+                              - ---
+
+                              #### LLM Pipeline Sample
+                              **Stack:** Python • LLM • RAG • Transformers • Prompt Engineering
+
+                              **Description:**
+                              A production-ready template for building LLM-powered applications with the three main patterns: RAG (Retrieval Augmented Generation), fine-tuning, and prompt engineering. This sample demonstrates best practices for deploying LLM applications.
+
+                              **Key Features:**
+                              - RAG pipeline implementation with vector databases
+                              - - Multi-model comparison and evaluation
+                                - - Prompt optimization techniques
+                                  - - Error handling and fallback strategies
+                                    - - Production deployment configuration
+                                     
+                                      - 📖 [Repository](https://github.com/hpkn/llm-pipeline-sample)
+                                     
+                                      - ---
+
+                                      #### Korean Multi-RAG Chatbot
+                                      **Stack:** Python • RAG • LLM • FastAPI • Korean NLP
+
+                                      **Description:**
+                                      A specialized chatbot system optimized for Korean language processing using multi-source RAG. The system integrates multiple knowledge bases and uses advanced NLP techniques for context-aware responses.
+
+                                      **Key Features:**
+                                      - Multi-source RAG implementation
+                                      - - Korean language-specific NLP processing
+                                        - - FastAPI backend with async support
+                                          - - Knowledge base management
+                                            - - Context-aware response generation
+                                             
+                                              - 📖 [Repository](https://github.com/hpkn/korean_multi_rag_chabot)
+                                             
+                                              - ---
+
+                                              #### File Data Extraction Template
+                                              **Stack:** Python • Data Extraction • PDF Processing
+
+                                              **Description:**
+                                              A versatile Python template for extracting structured data from various file formats including Excel, PDF, HWPX (Korean Word Format), and Word documents. Useful for document processing pipelines and data consolidation.
+
+                                              **Key Features:**
+                                              - Support for multiple file formats (PDF, Excel, HWPX, DOCX)
+                                              - - Structured data extraction
+                                                - - Data validation and cleaning
+                                                  - - Batch processing capability
+                                                    - - Error handling for malformed files
+                                                     
+                                                      - 📖 [Repository](https://github.com/hpkn/file_data_extraction_template)
+                                                     
+                                                      - ---
+
+                                                      #### TIPS Model Test (Jupyter Notebook)
+                                                      **Stack:** Python • Jupyter • Machine Learning • Model Evaluation
+
+                                                      **Description:**
+                                                      A Jupyter notebook environment for testing and evaluating machine learning models. Includes utilities for model comparison, performance metrics, and visualization.
+
+                                                      📖 [Repository](https://github.com/rstful/TIPS-Model-Test)
+
+                                                      ---
+
+                                                      #### Local LLM Test
+                                                      **Stack:** Python • Ollama • LLM • Local Inference
+
+                                                      **Description:**
+                                                      Demonstrates running large language models locally using Ollama, enabling offline LLM inference and fine-tuning without cloud dependencies. Useful for privacy-sensitive applications and development.
+
+                                                      📖 [Repository](https://github.com/rstful/local-llm-test)
+
+                                                      ---
+
+                                                      #### Coupon Generator
+                                                      **Stack:** Python • Data Generation
+
+                                                      **Description:**
+                                                      A utility tool for generating coupon codes with validation. Implements coupon generation logic with uniqueness guarantees and configurable parameters.
+
+                                                      📖 [Repository](https://github.com/rstful/coupon-generator)
+
+                                                      ---
+
+                                                      #### Africa Bid Management
+                                                      **Stack:** Python • Django • Business Logic
+
+                                                      **Description:**
+                                                      A bidding management system for African business operations. Handles bid creation, evaluation, and award processing.
+
+                                                      📖 [Repository](https://github.com/hpkn/africa_bid)
+
+                                                      ---
+
+                                                      #### Local Image Generation with Ollama
+                                                      **Stack:** Python • Ollama • Image Generation • Local Inference
+
+                                                      **Description:**
+                                                      Demonstrates running image generation models locally using Ollama, enabling offline image synthesis without cloud services or external APIs.
+
+                                                      📖 [Repository](https://github.com/hpkn/local-image-generation-ollama)
+
+                                                      ---
+
 ---
 
 ## 🛠 Tech Stack
