@@ -63,7 +63,7 @@ GPU operations that keep them alive.
 
 ## Selected work
 
-### BidSight — AI procurement intelligence platform
+### BidRaon ([https://bidraon.ai](https://bidraon.ai/)) — AI procurement intelligence platform
 *RS-TEAM · Lead engineer · proprietary*
 
 A platform that turns Korean government procurement data into decisions: which tenders to bid
@@ -79,8 +79,7 @@ on, against whom, and at what price.
   pipeline, plus Korean-language PDF report generation with ReportLab/WeasyPrint
 - **Stack** — NestJS, FastAPI, PostgreSQL + pgvector, Ollama, AWS
 
-### Skin analysis platform — distributed image inference
-*Consumer repository: [BE-SKIN-Analysis-sample-v2](https://github.com/hpkn/BE-SKIN-Analysis-sample-v2)*
+### Skin and Hair analysis platforms (https://www.choicetech.kr) — distributed image inference
 
 A multi-region microservices platform for image-based skin analysis, built around an
 asynchronous inference pipeline.
