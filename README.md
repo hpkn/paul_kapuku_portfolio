@@ -123,8 +123,8 @@ Additional work at RS-TEAM and Intel'city is proprietary and not published.
 | **Languages** | Python · TypeScript · JavaScript · SQL |
 | **Backend** | FastAPI · NestJS · Express · Flask · Django |
 | **Data** | PostgreSQL · pgvector · Redis · Kafka · Spark · Celery · RabbitMQ |
-| **Cloud & ops** | AWS (EC2, S3, Route 53) · Docker · Nginx · GitHub Actions · Prometheus · Grafana |
-| **AI / LLM** | RAG pipelines · embeddings (bge-m3) · Ollama · vLLM · AWS Bedrock · LangChain · HuggingFace · Transformers · fine-tuning |
+| **Cloud & ops** | AWS · Docker · Nginx · GitHub Actions · Prometheus · Grafana |
+| **AI / LLM** | RAG pipelines · embeddings · Ollama · vLLM · AWS Bedrock · LangChain · HuggingFace · Transformers · fine-tuning |
 
 ---
 
